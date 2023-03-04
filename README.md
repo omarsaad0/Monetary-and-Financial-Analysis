@@ -1,4 +1,4 @@
-# Monetary-and-Financial-Analysis
+# RFM Analysis for Customer Segmentation
 Monetary and Customer Segmentation Analysis
 In this case study using the OnlineRetail dataset, I explored the dataset and summarized the dataset using different analytical SQL these summarization are:
 *	Highest Invoices Rank
