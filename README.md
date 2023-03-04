@@ -7,7 +7,8 @@ In this case study using the OnlineRetail dataset, I explored the dataset and su
 *	No. of Invoices & Revenue Per Month
 *	Difference in Revenue between each month and the previous month
 
-Then an RFM model is created to understand customer behavior to improve customer retention and decrease churn. 
+Then an RFM model is created to understand customer behavior to improve customer retention and decrease churn.
+
 The model is based on the scores of Recency, Frequency and Monetary then label each customer based on his score. 
 With our dataset I tried to give a suggestion on how to avoid of churn of some customers and improve their retention by getting each customer highest purchasable item then I can give the potentially losing customers a promotion. Also, a reward to our most loyal customers with a promotion of a discount. 
 
