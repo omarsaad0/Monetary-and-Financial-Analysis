@@ -19,6 +19,7 @@ select distinct customer_id, count(invoice) Invoices_Count, rank() over (order b
 from tableretail
 group by customer_id;
  ```
+ 
  ![image](https://user-images.githubusercontent.com/76915795/222925534-bcd9bf6d-c9fb-4509-b7d6-a4658e250743.png)
 
 There are 110 customers purchasing from our store, we can see the ranking of our customers by their number of invoices. The no. 1 customer has made 4596 invoices while the least invoices made by a customer is 2 
@@ -28,6 +29,7 @@ select distinct customer_id, sum(price*quantity) Money_Spent, rank() over (order
 from tableretail
 group by customer_id;
  ```
+
  ![image](https://user-images.githubusercontent.com/76915795/222925549-9aa5992e-6aaf-4ac2-9fc6-5cde2219046f.png)
 
 Here is the ranking of our customers by their money spending. The top customer in spending money has spent nearly 42 K 
@@ -38,7 +40,8 @@ from tableretail
 group by customer_id;
 ```
 By combining the 2 queries we could see there is a difference between customers if we ranked them by their no. of invoices they made, or their money spent.
- ![image](https://user-images.githubusercontent.com/76915795/222925554-0d861d2c-ebe1-4eb2-990d-b9f3f5bdccfa.png)
+
+![image](https://user-images.githubusercontent.com/76915795/222925554-0d861d2c-ebe1-4eb2-990d-b9f3f5bdccfa.png)
 
 ### 3- 3rd Query Top Items Revenue and Purchased
 ```
